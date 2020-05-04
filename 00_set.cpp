@@ -10,8 +10,8 @@ int main()
     s.insert(87); // 69 87
     cout << "After inserting a duplicate element,\n"
          << "s still contains " << s.size() << " elements.\n";
-    s.insert({9487, 64, 426, 817}); // 64 69 87 426 817 9487
-    s.erase(69);                    // 64 87 426 817 9487
+    s.insert({9487, 64, 426, 817, 689}); // 64 69 87 426 689 817 9487
+    s.erase(69);                         // 64 87 426 689 817 9487
     for (const int &i : s)
         cout << '\t' << i << '\n';
     if (s.find(69) != s.end()) // equivalent to: s.count(69)
