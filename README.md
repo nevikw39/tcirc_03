@@ -45,7 +45,7 @@
 - 互異性：集合中的元素不可重複出現
 ### C++ 中的集合 (set)
 - 無序性
-    * 既然集合中元素的各種排列同義，則我們可以定義出一種唯一表示法
+    * 既然集合中元素的各種排列等價，則我們可以定義出一種唯一表示法
     * C++ 中預設將 *set* 由小到大排好
 - 互異性
     * C++ *set* 中的元素不會重複出現
@@ -61,3 +61,20 @@
 更精準的說，*map* 是個對應關係。陣列或 *vector* 都以非負整數作為索引下標，而 *map* 是可以自訂下標的容器。
 
 因此， *map* 的元素由兩個部分組成，索引的下標稱之為 **key**，所對應的資料就是 **value**。在 C++ 中兩者可以綁在一起變成一個 *pair*，我們以 *.first* 存取 **key**，*.second* 存取 **value**。
+
+[b035: 電皇的資源回收場](https://judge.tcirc.tw/ShowProblem?problemid=b035)
+
+## Policy-based Data Structures
+**PBDS** 是 *gcc* 獨有的擴充。mac 上預設的 *clang* 不支援。大部分 OJ、比賽及檢定都支援。
+
+依據 STL 風格寫成，提供很多神奇的資料結構，俗稱**黑魔法**。
+
+### Tree
+
+### Hash Table
+雜湊函數並非完美。當不同的 key 經過 hash 得到相同的值，稱為**碰撞 _(collision)_**。處理碰撞的方式有兩種：
+
+1. collision-chaining 拉表法 (?
+    - cc_hash_table
+2. probing 探測法
+    - gp_hash_table
