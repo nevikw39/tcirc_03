@@ -53,6 +53,15 @@
 - 是一顆自平衡的紅黑樹 (RB-Tree)
 - 可以對數時間快速地插入、移除、搜尋
 
+### set 的運算
+- union
+- intersection
+- difference
+- symmetric difference
+- includes
+
+以上算法其實只要使用前容器有序即可。
+
 [b034: Arvin 拉麵店](https://judge.tcirc.tw/ShowProblem?problemid=b034)，以 *multiset* 實作 *min-max heap*。
 
 ## map
@@ -64,12 +73,16 @@
 
 [b035: 電皇的資源回收場](https://judge.tcirc.tw/ShowProblem?problemid=b035)
 
-## Policy-based Data Structures
-**PBDS** 是 *gcc* 獨有的擴充。mac 上預設的 *clang* 不支援。大部分 OJ、比賽及檢定都支援。
+## PBDS 中的關聯式容器
+**Policy-based Data Structures** 是 *gcc* 獨有的擴充。mac 上預設的 *clang* 不支援。大部分 OJ、比賽及檢定都支援。
 
 依據 STL 風格寫成，提供很多神奇的資料結構，俗稱**黑魔法**。
 
+如同前述，*set* 其實可以視作 key 為 null 之 *map*，故 **PBDS** 不特別提供集合類容器。
+
 ### Tree
+
+標準庫中的 *set*, *map* 雖然內部是紅黑樹結構，然而許多功能被封裝起來，而 **PBDS** 提供的 *tree*，如 *.find_by_order()*, *.order_of_key()* 還有節點的更新等。
 
 ### Hash Table
 雜湊函數並非完美。當不同的 key 經過 hash 得到相同的值，稱為**碰撞 _(collision)_**。處理碰撞的方式有兩種：
