@@ -33,9 +33,9 @@
 **[b031 - Broken Keyboard cont.](https://judge.tcirc.tw/ShowProblem?problemid=b031)**，這是上次社課最後面提到的例題的加強版，值得一試。
 
 ## 關聯式容器的分類
-\      |      二分搜尋樹     | 雜湊表 (C++11)
+\      |      二分搜尋樹     | 雜湊表 (C++11↑)
 :-----:|-------------------|---
-單一鍵值 | **set**, ***map** | unordered_set, unordered_map
+單一鍵值 | **set**, **map** | unordered_set, unordered_map
 多重鍵值 | multiset, multimap| unordered_multiset, unordered_multimap
 
 ## set
@@ -64,6 +64,21 @@
 
 [b034: Arvin 拉麵店](https://judge.tcirc.tw/ShowProblem?problemid=b034)，以 *multiset* 實作 *min-max heap*。
 
+### 類題演練
+TCIRC Judge:
+- [b036: 物種豐富度](https://judge.tcirc.tw/ShowProblem?problemid=b036)
+- [b033: 晚餐ㄘ什麼？？](https://judge.tcirc.tw/ShowProblem?problemid=b033)
+- [c006: Ⅵ. ＡＣ大整理](https://judge.tcirc.tw/ShowProblem?problemid=c006)
+
+GreenJudge:
+- [e025: 1.雲端列印](http://www.tcgs.tc.edu.tw:1218/ShowProblem?problemid=e025)
+- [z067: b004類似題(誰還在教室)](http://www.tcgs.tc.edu.tw:1218/ShowProblem?problemid=z067)
+
+ZeroJudge:
+- [b533: P21數學問題-集合](https://zerojudge.tw/ShowProblem?problemid=b533)
+- [d583: 幼稚的企鵝](https://zerojudge.tw/ShowProblem?problemid=d583)
+- [b523: 先別管這個了，你聽過安麗嗎？](https://zerojudge.tw/ShowProblem?problemid=b523)
+- [](https://zerojudge.tw/ShowProblem?problemid=)
 ## map
 這類資料結構有許多不同的別名，像是 *map*, *dictionary*, *associative array*，其中，由最後一個稱呼，我們可以推測，它是一個行為模仿陣列下標操作的容器。
 
