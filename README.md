@@ -37,8 +37,6 @@
 ## 關聯式容器的分類
 \      |      二分搜尋樹     | 雜湊表 (C++11↑)
 :-----:|-------------------|---
-單一鍵值 | **set**, **map** | unordered_set, unordered_map
-多重鍵值 | multiset, multimap| unordered_multiset, unordered_multimap
 單一鍵值 | **set**, **map** | `unordered_set, unordered_map`
 多重鍵值 | `multiset, multimap`| `unordered_multiset, unordered_multimap`
 
