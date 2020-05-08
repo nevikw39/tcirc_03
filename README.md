@@ -11,6 +11,8 @@
 
 > 特別感謝「*[星城數位科技](http://xincastle.com/)*」
 
+> [表單](https://s.bentley.taipei/form)
+
 由於疫情關係，電腦教室鍵盤暫停使用，請同學改用螢幕小鍵盤或 Remote Mouse
 
 ### 電腦端
