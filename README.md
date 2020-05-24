@@ -7,7 +7,7 @@
 > [社團ＯＪ](https://judge.tcirc.tw)
 > [社團網站](https://tcirc.tw)
 > [Telegram 討論區](https://t.me/joinchat/KUNytVBKySskb35M4TdOig)
-> [Python 班講義](hackmd.io/@RucKuo/Circ-Python)
+> [Python 班講義](https://hackmd.io/@RucKuo/Circ-Python)
 
 > 特別感謝「*[星城數位科技](http://xincastle.com/)*」
 
