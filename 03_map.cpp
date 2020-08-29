@@ -10,14 +10,14 @@ int main()
     for (const pair<string, int> &i : m) // const auto &i : m
         cout << "key: " << i.first << ", val: " << i.second << '\n';
     if (m.find("non-exist key") != m.end())
-        cout << "The key is exist.\n";
+        cout << "The key exists.\n";
     else
-        cout << "The key is not exist.\n";
+        cout << "The key does not exist.\n";
     cout << "If you access by a non-exist key, then you get " << m["non-exist key"] << '\n';
     if (m.find("non-exist key") != m.end())
-        cout << "The key is now exist.\n";
+        cout << "The key now exists.\n";
     else
-        cout << "The key is still not exist.\n";
+        cout << "The key still not exists.\n";
     m["qwert"] = 87;
     return 0;
 }
